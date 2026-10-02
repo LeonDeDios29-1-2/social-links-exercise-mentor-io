@@ -13,3 +13,9 @@
 --Grey900: hsl(0, 0%, 8%);
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    background-color: var(--Grey900);
+    color: var(--White);
+}
