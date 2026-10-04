@@ -13,9 +13,26 @@
 --Grey900: hsl(0, 0%, 8%);
 }
 
+articule{
+    width: 100%;
+    height: 100%;
+    background-color: var(--Grey800);
+    padding: 50px;
+    margin: 50px;
+}
+
 body {
     display: flex;
     justify-content: center;
     background-color: var(--Grey900);
     color: var(--White);
+}
+
+.avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 100px;
+    display: block;
+    justify-content: center;
 }
