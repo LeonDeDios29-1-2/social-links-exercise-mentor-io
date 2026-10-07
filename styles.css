@@ -3,8 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
-  color: var(--White);
-  font-weight: 600;
+  color: var(--White);  
 }
 
 :root {
@@ -36,7 +35,18 @@ article {
     border-radius: 50%;
 }
 #nombre {
-    margin-bottom: 20px;
+    margin-bottom: 5px;    
     font-size: 20px;
-    font-style: inherit;
+    font-weight: 400;
+}
+.dondevive {
+    font-size: 12px;
+    color: var(--Green);
+    font-style: normal;
+    margin-bottom: 20px;
+}
+.trabajo {
+    font-size: 10px;
+    font-style: normal;
+    margin-bottom: 20px;
 }
