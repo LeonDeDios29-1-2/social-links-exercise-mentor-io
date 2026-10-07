@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  color: var(--White);
+  font-weight: 600;
 }
 
 :root {
@@ -13,22 +15,28 @@
 --Grey900: hsl(0, 0%, 8%);
 }
 
-article{
-    width: 500px;
-    background-color: var(--Grey800);
-    padding: 50px;
-    margin: 60px;
-    border-radius: 10px;
-}
-
 body {
+    background-color: var(--Grey900);
     display: flex;
     justify-content: center;
-    background-color: var(--Grey900);
-    color: var(--White);
-}
-
-.avatar {
-    width: 100%;
     
+}
+article {
+    background-color: var(--Grey800);
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+.avatar{
+    text-align: center;
+}
+.avatar img {
+    width: 25%;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+#nombre {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-style: inherit;
 }
