@@ -59,3 +59,76 @@ article {
     font-style: normal;
     margin-bottom: 20px;
 }
+.redes {
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.github:hover {
+    transition-duration: 0.3s;
+    background-color: hsla(75, 94%, 57%);
+    color: black;
+    cursor: pointer;
+}
+.github{
+    background-color: var(--Grey700);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+}
+.frontendmentor{
+    background-color: var(--Grey700);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+}
+.frontendmentor:hover {
+    transition-duration: 0.3s;
+    background-color: hsla(75, 94%, 57%);
+    color: black;
+    cursor: pointer;
+}
+.linkedIn{
+    background-color: var(--Grey700);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+}
+.linkedIn:hover {
+    transition-duration: 0.3s;
+    background-color: hsla(75, 94%, 57%);
+    color: black;
+    cursor: pointer;
+}
+.twitter{
+    background-color: var(--Grey700);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+}
+.twitter:hover {
+    transition-duration: 0.3s;
+    background-color: hsla(75, 94%, 57%);
+    color: black;
+    cursor: pointer;
+}
+.instagram{
+    background-color: var(--Grey700);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+}
+.instagram:hover {
+    transition-duration: 0.3s;
+    background-color: hsla(75, 94%, 57%);
+    color: black;
+    cursor: pointer;
+}
