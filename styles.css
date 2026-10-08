@@ -60,12 +60,13 @@ article {
     margin-bottom: 20px;
 }
 .redes {
-    font-style: normal;
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     align-items: center;
+    font-size: 10px;
+    font-weight: bold;
 }
 .github:hover {
     transition-duration: 0.3s;
